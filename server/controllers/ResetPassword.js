@@ -25,7 +25,7 @@ exports.resetPasswordToken = async (req, res) => {
 		);
 		console.log("DETAILS", updatedDetails);
 
-		const url = `https://monik.fun/update-password/${token}`;
+		const url = `https://monik.life/update-password/${token}`;
 
 		await mailSender(
 			email,
